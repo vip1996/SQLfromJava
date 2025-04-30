@@ -5,7 +5,7 @@ public class Main {
         String url = "jdbc:sqlserver://server;databaseName=Resturant;encrypt=true;trustServerCertificate=true";
         String user = "sa";
         String password = "password2310";
-
+//komentari gaaketea achim
         // Use try-with-resources to automatically close resources
         try (Connection con = DriverManager.getConnection(url, user, password);
              Statement st = con.createStatement()) {
